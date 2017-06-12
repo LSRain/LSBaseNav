@@ -43,8 +43,11 @@
 
 }
 
+/**
+ 状态栏设置为白色
 
-// 让状态栏为白色
+ @return UIStatusBarStyle
+ */
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 }
