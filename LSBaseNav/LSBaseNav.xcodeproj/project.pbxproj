@@ -15,6 +15,10 @@
 		51F7B1201EEE9D58005E7CCA /* LSTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B11F1EEE9D58005E7CCA /* LSTabViewController.m */; };
 		51F7B1231EEE9E0D005E7CCA /* LSNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B1221EEE9E0D005E7CCA /* LSNavigationViewController.m */; };
 		51F7B1271EEE9F84005E7CCA /* UIColor+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B1261EEE9F84005E7CCA /* UIColor+LSAddition.m */; };
+		51F7B12C1EEEA1F4005E7CCA /* LSTestVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B12B1EEEA1F4005E7CCA /* LSTestVC1.m */; };
+		51F7B12F1EEEA1FD005E7CCA /* LSTestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B12E1EEEA1FD005E7CCA /* LSTestVC2.m */; };
+		51F7B1321EEEA205005E7CCA /* LSTestVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B1311EEEA205005E7CCA /* LSTestVC3.m */; };
+		51F7B1351EEEA20D005E7CCA /* LSTestVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B1341EEEA20D005E7CCA /* LSTestVC4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,14 @@
 		51F7B1251EEE9F84005E7CCA /* UIColor+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LSAddition.h"; sourceTree = "<group>"; };
 		51F7B1261EEE9F84005E7CCA /* UIColor+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSAddition.m"; sourceTree = "<group>"; };
 		51F7B1281EEEA00F005E7CCA /* LSAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAdditions.h; sourceTree = "<group>"; };
+		51F7B12A1EEEA1F4005E7CCA /* LSTestVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTestVC1.h; sourceTree = "<group>"; };
+		51F7B12B1EEEA1F4005E7CCA /* LSTestVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTestVC1.m; sourceTree = "<group>"; };
+		51F7B12D1EEEA1FD005E7CCA /* LSTestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTestVC2.h; sourceTree = "<group>"; };
+		51F7B12E1EEEA1FD005E7CCA /* LSTestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTestVC2.m; sourceTree = "<group>"; };
+		51F7B1301EEEA205005E7CCA /* LSTestVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTestVC3.h; sourceTree = "<group>"; };
+		51F7B1311EEEA205005E7CCA /* LSTestVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTestVC3.m; sourceTree = "<group>"; };
+		51F7B1331EEEA20D005E7CCA /* LSTestVC4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTestVC4.h; sourceTree = "<group>"; };
+		51F7B1341EEEA20D005E7CCA /* LSTestVC4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTestVC4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 		51F7B11A1EEE9D0B005E7CCA /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				51F7B1291EEEA1E2005E7CCA /* Temp */,
 				51F7B1241EEE9F36005E7CCA /* LSAdditions */,
 				51F7B11E1EEE9D58005E7CCA /* LSTabViewController.h */,
 				51F7B11F1EEE9D58005E7CCA /* LSTabViewController.m */,
@@ -107,6 +120,21 @@
 				51F7B1281EEEA00F005E7CCA /* LSAdditions.h */,
 			);
 			path = LSAdditions;
+			sourceTree = "<group>";
+		};
+		51F7B1291EEEA1E2005E7CCA /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				51F7B12A1EEEA1F4005E7CCA /* LSTestVC1.h */,
+				51F7B12B1EEEA1F4005E7CCA /* LSTestVC1.m */,
+				51F7B12D1EEEA1FD005E7CCA /* LSTestVC2.h */,
+				51F7B12E1EEEA1FD005E7CCA /* LSTestVC2.m */,
+				51F7B1301EEEA205005E7CCA /* LSTestVC3.h */,
+				51F7B1311EEEA205005E7CCA /* LSTestVC3.m */,
+				51F7B1331EEEA20D005E7CCA /* LSTestVC4.h */,
+				51F7B1341EEEA20D005E7CCA /* LSTestVC4.m */,
+			);
+			path = Temp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,8 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F7B12F1EEEA1FD005E7CCA /* LSTestVC2.m in Sources */,
+				51F7B12C1EEEA1F4005E7CCA /* LSTestVC1.m in Sources */,
 				51F7B10B1EEE9C3E005E7CCA /* ViewController.m in Sources */,
 				51F7B1201EEE9D58005E7CCA /* LSTabViewController.m in Sources */,
+				51F7B1351EEEA20D005E7CCA /* LSTestVC4.m in Sources */,
+				51F7B1321EEEA205005E7CCA /* LSTestVC3.m in Sources */,
 				51F7B1271EEE9F84005E7CCA /* UIColor+LSAddition.m in Sources */,
 				51F7B1081EEE9C3E005E7CCA /* AppDelegate.m in Sources */,
 				51F7B1051EEE9C3E005E7CCA /* main.m in Sources */,

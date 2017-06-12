@@ -32,10 +32,9 @@
     UIViewController *vc2 = [self loadChildViewControllerWithClassName:@"LSTestVC2" andTitle:@"VC2" andImageName:@"ico_foot_VC2"];
     UIViewController *vc3 = [self loadChildViewControllerWithClassName:@"LSTestVC3" andTitle:@"VC3" andImageName:@"ico_foot_VC3"];
     UIViewController *vc4 = [self loadChildViewControllerWithClassName:@"LSTestVC4" andTitle:@"VC4" andImageName:@"ico_foot_fxs"];
-    UIViewController *vc5 = [self loadChildViewControllerWithClassName:@"MeViewController" andTitle:@"VC5" andImageName:@"ico_foot_VC4"];
     
     // 给标签控制器添加子控制器
-    self.viewControllers = @[vc1, vc2, vc3, vc4, vc5];
+    self.viewControllers = @[vc1, vc2, vc3, vc4];
     self.tabBar.translucent = NO;
     // 设置标签栏的主题颜色"它会影响标签栏上的所有文字颜色"
     self.tabBar.tintColor = [UIColor ls_colorWithHex:0x1e82d2];
