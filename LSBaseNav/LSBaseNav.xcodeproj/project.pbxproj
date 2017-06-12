@@ -10,9 +10,11 @@
 		51F7B1051EEE9C3E005E7CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B1041EEE9C3E005E7CCA /* main.m */; };
 		51F7B1081EEE9C3E005E7CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B1071EEE9C3E005E7CCA /* AppDelegate.m */; };
 		51F7B10B1EEE9C3E005E7CCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B10A1EEE9C3E005E7CCA /* ViewController.m */; };
-		51F7B10E1EEE9C3E005E7CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F7B10C1EEE9C3E005E7CCA /* Main.storyboard */; };
 		51F7B1101EEE9C3E005E7CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F7B10F1EEE9C3E005E7CCA /* Assets.xcassets */; };
 		51F7B1131EEE9C3E005E7CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F7B1111EEE9C3E005E7CCA /* LaunchScreen.storyboard */; };
+		51F7B1201EEE9D58005E7CCA /* LSTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B11F1EEE9D58005E7CCA /* LSTabViewController.m */; };
+		51F7B1231EEE9E0D005E7CCA /* LSNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B1221EEE9E0D005E7CCA /* LSNavigationViewController.m */; };
+		51F7B1271EEE9F84005E7CCA /* UIColor+LSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F7B1261EEE9F84005E7CCA /* UIColor+LSAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,16 @@
 		51F7B1071EEE9C3E005E7CCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		51F7B1091EEE9C3E005E7CCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		51F7B10A1EEE9C3E005E7CCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		51F7B10D1EEE9C3E005E7CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51F7B10F1EEE9C3E005E7CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F7B1121EEE9C3E005E7CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F7B1141EEE9C3E005E7CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F7B11E1EEE9D58005E7CCA /* LSTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTabViewController.h; sourceTree = "<group>"; };
+		51F7B11F1EEE9D58005E7CCA /* LSTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTabViewController.m; sourceTree = "<group>"; };
+		51F7B1211EEE9E0D005E7CCA /* LSNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSNavigationViewController.h; sourceTree = "<group>"; };
+		51F7B1221EEE9E0D005E7CCA /* LSNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSNavigationViewController.m; sourceTree = "<group>"; };
+		51F7B1251EEE9F84005E7CCA /* UIColor+LSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LSAddition.h"; sourceTree = "<group>"; };
+		51F7B1261EEE9F84005E7CCA /* UIColor+LSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LSAddition.m"; sourceTree = "<group>"; };
+		51F7B1281EEEA00F005E7CCA /* LSAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAdditions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,11 @@
 		51F7B1021EEE9C3E005E7CCA /* LSBaseNav */ = {
 			isa = PBXGroup;
 			children = (
+				51F7B11A1EEE9D0B005E7CCA /* Class */,
 				51F7B1061EEE9C3E005E7CCA /* AppDelegate.h */,
 				51F7B1071EEE9C3E005E7CCA /* AppDelegate.m */,
 				51F7B1091EEE9C3E005E7CCA /* ViewController.h */,
 				51F7B10A1EEE9C3E005E7CCA /* ViewController.m */,
-				51F7B10C1EEE9C3E005E7CCA /* Main.storyboard */,
 				51F7B10F1EEE9C3E005E7CCA /* Assets.xcassets */,
 				51F7B1111EEE9C3E005E7CCA /* LaunchScreen.storyboard */,
 				51F7B1141EEE9C3E005E7CCA /* Info.plist */,
@@ -77,6 +85,28 @@
 				51F7B1041EEE9C3E005E7CCA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51F7B11A1EEE9D0B005E7CCA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				51F7B1241EEE9F36005E7CCA /* LSAdditions */,
+				51F7B11E1EEE9D58005E7CCA /* LSTabViewController.h */,
+				51F7B11F1EEE9D58005E7CCA /* LSTabViewController.m */,
+				51F7B1211EEE9E0D005E7CCA /* LSNavigationViewController.h */,
+				51F7B1221EEE9E0D005E7CCA /* LSNavigationViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		51F7B1241EEE9F36005E7CCA /* LSAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				51F7B1251EEE9F84005E7CCA /* UIColor+LSAddition.h */,
+				51F7B1261EEE9F84005E7CCA /* UIColor+LSAddition.m */,
+				51F7B1281EEEA00F005E7CCA /* LSAdditions.h */,
+			);
+			path = LSAdditions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +140,7 @@
 				TargetAttributes = {
 					51F7B0FF1EEE9C3E005E7CCA = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -139,7 +169,6 @@
 			files = (
 				51F7B1131EEE9C3E005E7CCA /* LaunchScreen.storyboard in Resources */,
 				51F7B1101EEE9C3E005E7CCA /* Assets.xcassets in Resources */,
-				51F7B10E1EEE9C3E005E7CCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,22 +180,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				51F7B10B1EEE9C3E005E7CCA /* ViewController.m in Sources */,
+				51F7B1201EEE9D58005E7CCA /* LSTabViewController.m in Sources */,
+				51F7B1271EEE9F84005E7CCA /* UIColor+LSAddition.m in Sources */,
 				51F7B1081EEE9C3E005E7CCA /* AppDelegate.m in Sources */,
 				51F7B1051EEE9C3E005E7CCA /* main.m in Sources */,
+				51F7B1231EEE9E0D005E7CCA /* LSNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51F7B10C1EEE9C3E005E7CCA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51F7B10D1EEE9C3E005E7CCA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51F7B1111EEE9C3E005E7CCA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -274,10 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LSBaseNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsrain.LSBaseNav.LSBaseNav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -285,10 +313,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LSBaseNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsrain.LSBaseNav.LSBaseNav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

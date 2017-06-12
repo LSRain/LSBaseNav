@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LSTabViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];    
+    LSTabViewController *tab = [LSTabViewController new];
+    _window.rootViewController = tab;
+    [_window makeKeyAndVisible];
+
     return YES;
 }
 
